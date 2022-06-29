@@ -22,7 +22,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
     Telling the computer the value and what I want it to do with the values, for example, mulitiplied by two, is how to utilize the value parameter. An example would look like this: 
     var myArray = [1, 2, 3] 
     const arrayTwice = myArray.map(value => {
-      return value * 32
+      return value * 2
       })
       console.log(arrayTwice)
     Output: [2, 4, 6]
@@ -61,12 +61,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
    
 
 
-
 6. STRETCH: What is hoisting in JavaScript?
 
   Your answer: Hoisting in Javascript is bringing certain code to the forefront and putting it in front of all the other code. 
 
-  Researched answer:
+  Researched answer: JavaScript hoisting is when JavaScript brings the variable declarations to the top of the code block during the execution phase. This works for var but not let or const during certain instances. Let will work for function expressions.
+  //I tried to understand this concept the best I could. The further I researched, the more lost I got so I wrote what I could understand.   
 
 
 
